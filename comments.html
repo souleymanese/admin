@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MYadmin</title>
+	<script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="fontawesome-free-5.12.1-web/css/all.css">
+
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+
+		<nav class="nav-wrapper transparent blue darken-2">
+			<div class="container">
+				<a class="brand-logo" href="#">MYadmin</a>
+				<a href="#" data-target="slide-out" class="sidenav-trigger right show-on-large"><i class="material-icons">menu</i></a>
+				
+				<ul class="right hide-on-med-and-down">
+					<li>
+						<a href="index.html">Dashboard</a>
+					</li>
+					<li>
+						<a href="posts.html">Posts</a>
+					</li>
+					<li>
+						<a href="categories.html">Categories</a>
+					</li>
+					<li>
+						<a href="#">Comments</a>
+					</li>
+					<li>
+						<a href="users.html">Users</a>
+					</li>
+
+				</ul>
+
+				  
+			</div>
+		</nav>
+
+		<ul id="slide-out" class="sidenav">
+				    <li>
+				    	<div class="user-view">
+					      <div class="background blue lighten-1">
+					        <img src="dd.jpg" alt="photo">
+					      </div>
+					      <a href="#user">
+					      	<img class="circle" src="soul.jpg">
+					      </a>
+					      <a href="#name">
+					      	<span class="white-text name">Souleymane Seydou Yacouba</span>
+					      </a>
+					      <a href="#email">
+					      	<span class="white-text email">Soul@gmail.com</span>
+					      </a>
+				    	</div>
+					</li>
+
+				    <li>
+				    	<a href="index.html"><i class="material-icons">dashboard</i>Dashboard</a>
+				    </li>
+				    <li>
+				    	<a href="posts.html">Posts</a>
+				    </li>
+				    <li>
+				    	<a href="categories.html">Categories</a>
+				    </li>
+				    <li>
+				    	<a href="#">Comments</a>
+				    </li>
+				    <li>
+				    	<a href="index.html">Users</a>
+				    </li>
+				    <li>
+				    	<div class="divider"></div>
+				    </li>
+				    <li>
+				    	<a class="subheader">Account Controls</a>
+				    </li>
+				    <li>
+				    	<a class="waves-effect" href="#!">Logout</a>
+				    </li>
+		</ul>
+
+
+		<section class="section grey lighten-4">
+			<div class="container">
+				<div class="card">
+					<div class="card-content">
+						<p class="flow-text">Comments</p>
+
+				        <ul class="collection">
+
+				          <li class="collection-item avatar grey lighten-3">
+				            <img src="k.png" class="circle" alt="">
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam.</p>
+				            <i class="material-icons right green-text">check</i>
+				            <i class="material-icons right red-text">clear</i>
+				          </li>
+
+				          <li class="collection-item avatar">
+				            <img src="l.jpg" class="circle" alt="">
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam.</p>
+				            <i class="material-icons right green-text">check</i>
+				            <i class="material-icons right red-text">clear</i>
+				          </li>
+
+				          
+
+				          <li class="collection-item avatar grey lighten-3">
+				            <img src="m.png" class="circle" alt="">
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam.</p>
+				            <i class="material-icons right green-text">check</i>
+				            <i class="material-icons right red-text">clear</i>
+				          </li>
+
+				          <li class="collection-item avatar">
+				            <img src="ss.jpg" class="circle" alt="">
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam.</p>
+				            <i class="material-icons right green-text">check</i>
+				            <i class="material-icons right red-text">clear</i>
+				          </li>
+
+				        </ul>
+
+					</div>
+
+					<div class="card-action">
+						<ul class="pagination">
+						    <li class="disabled"><a href="#!"><i class="material-icons blue-text lighten-1">chevron_left</i></a></li>
+						    <li class="active blue lighten-1"><a href="#!" class="white-text">1</a></li>
+						    <li class="waves-effect"><a href="#!" class="blue-text lighten-1">2</a></li>
+						    <li class="waves-effect"><a href="#!" class="blue-text lighten-1">3</a></li>
+						    <li class="waves-effect"><a href="#!" class="blue-text lighten-1">4</a></li>
+						    <li class="waves-effect"><a href="#!" class="blue-text lighten-1">5</a></li>
+						    <li class="waves-effect"><a href="#!" class="blue-text lighten-1"><i class="material-icons blue-text lighten-1">chevron_right</i></a></li>
+						  </ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="fixed-action-btn">
+			
+			<a class='btn-floating btn-large waves-effect waves-light red' href='#'><i class="material-icons">add</i></a>
+
+		  <ul>
+		    <li>
+		    	<a href="#modal1" class="btn-floating blue lighten-1 modal-trigger" data-target="modal1"><i class="material-icons">mode_edit</i></a>
+		    </li>
+
+		    <li>
+		    	<a href="#modal2" class="btn-floating blue lighten-1 modal-trigger"><i class="material-icons">folder</i></a>
+		    </li>
+		    
+		    <li>
+		    	<a href="#modal3" class="btn-floating blue lighten-1 modal-trigger"><i class="material-icons">people</i></a>
+		    </li>
+		  </ul>
+
+		</div>
+
+
+<!-- modals -->
+
+	<div class="modal" id="modal1">
+		<div class="modal-content">
+
+			<h4>Add Post</h4>
+			<div class="input-field">
+				<input type="text" id="title2">
+				<label for="title2">Title</label>
+			</div>
+
+			<div class="input-field">
+				<select name="option" id="option">
+					<option value="Select-Option disabled selected">Select Option</option>
+					<option value="1">Option 1</option>
+        			<option value="2">Option 2</option>
+        			<option value="3">Option 3</option>
+				</select>
+			</div>
+
+			<div>
+				<textarea name="editor1"></textarea>
+			    <script>
+				CKEDITOR.replace( 'editor1' );
+			    </script>
+			</div>
+		</div>
+
+		<div class="modal-footer">
+			<a href="#" class="modal-close waves-effect waves-green btn blue lighten-1">SUBMIT</a>
+		</div>
+	</div>
+
+
+<!-- add category -->
+	<div class="modal" id="modal2">
+		<div class="modal-content">
+			<h4>Add Category</h4>
+			<div class="input-field">
+				<input type="text" id="title3">
+				<label for="title3">Title</label>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<a href="#" class="modal-close waves-effect waves-green btn blue lighten-1">SUBMIT</a>
+		</div>
+	</div>
+
+<!-- add user -->
+	<div class="modal" id="modal3">
+		<div class="modal-content">
+			<h4>Add User</h4>
+			<div class="input-field">
+				<input type="text" id="name2">
+				<label for="name2">Name</label>
+			</div>
+
+			<div class="input-field">
+				<input type="email" id="mail2">
+				<label for="mail2">Email</label>
+			</div>
+
+			<div class="input-field">
+				<input type="password" id="pass">
+				<label for="pass">Password</label>
+			</div>
+
+			<div class="input-field">
+				<input type="password" id="pass2">
+				<label for="pass2">Confirme Password</label>
+			</div>
+		</div>
+
+		<div class="modal-footer">
+			<a href="#" class="modal-close btn blue lighten-1 waves-effect waves-green">SUBMIT</a>
+		</div>
+	</div>
+
+		<footer class="page-footer blue darken-2">
+			<div class="footer copyright center">MyAdmin CodeLoccol Copyright &copy; 2020</div>
+		</footer>
+
+
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.sidenav').sidenav();
+		$('.scrollspy').scrollSpy();
+		$('.fixed-action-btn').floatingActionButton();
+		$('select').formSelect();
+		$('.modal').modal();
+	});
+</script>
+</body>
+</html>
